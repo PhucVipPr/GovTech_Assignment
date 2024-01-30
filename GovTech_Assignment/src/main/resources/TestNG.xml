@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="GovTech_Service" parallel="tests" thread-count="6">
+    <listeners>
+        <listener class-name="core.TestListener"></listener>
+    </listeners>
+    <test name="service1">
+        <classes>
+            <class name="test.Service1"/>
+        </classes>
+    </test>
+    <test name="service2">
+        <classes>
+            <class name="test.Service2"/>
+        </classes>
+    </test>
+    <test name="service3">
+        <classes>
+            <class name="test.Service3"/>
+        </classes>
+    </test>
+    <test name="service4">
+        <classes>
+            <class name="test.Service4"/>
+        </classes>
+    </test>
+    <test name="service5">
+        <classes>
+            <class name="test.Service5"/>
+        </classes>
+    </test>
+    <test name="service6">
+        <classes>
+            <class name="test.Service6"/>
+        </classes>
+    </test>
+</suite>
